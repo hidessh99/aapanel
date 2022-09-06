@@ -1,0 +1,3 @@
+
+extension=/www/server/php/74/lib/php/extensions/no-debug-non-zts-20190902/zip.so
+extension=/www/server/php/74/lib/php/extensions/no-debug-non-zts-20190902/ssh2.so
