@@ -1,0 +1,24 @@
+extension=/www/server/php/74/lib/php/extensions/no-debug-non-zts-20190902/zip.so
+extension=/www/server/php/74/lib/php/extensions/no-debug-non-zts-20190902/ssh2.so
+
+DB_DATABASE=calonfan_akunssh
+DB_USERNAME=calonfan_akunssh
+DB_PASSWORD=tVg!tF5i0S6t
+
+
+/usr/local/bin/ea-php74 -d register_argc_argv=On /home/calonfan/webtunnel/artisan schedule:run > /dev/null 2>&1
+
+
+/www/server/panel/php/74/bin/php -d register_argc_argv=On /www/wwwroot/webtunnel/artisan schedule:run > /dev/null 2>&1
+
+
+/www/server/php/74/bin/php -d register_argc_argv=On /www/wwwroot/webtunnel/artisan schedule:run >> /dev/null 2>&1
+
+/usr/local/bin/ea-php74 -d register_argc_argv=On /home/calonfan/webtunnel/artisan schedule:run > /dev/null 2>&1
+
+
+ /www/server/php/74/bin/php /www/wwwroot/webtunnel/artisan schedule:run >> /dev/null 2>&1
+
+
+/www/server/php/74/bin/php/www/wwwroot/webtunnel/artisan/artisan schedule:run >> /dev/null 2>&1
+
